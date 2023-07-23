@@ -1,25 +1,20 @@
-# ![Angular 1.5+ ES6 & Component API Example App](project-logo.png)
+AngularJS by Example
+===
 
-> Example Angular 1.5+ (ES6 + Components) codebase that adheres to the [RealWorld](https://github.com/gothinkster/realworld-example-apps) spec and API.
+An application to demonstrate various real world AngularJS best practices and to compliment a tutorial series written on [revillweb.com](http://www.revillweb.com/).
 
-View the **[demo application](https://angularjs.realworld.io)** or **[learn how to build the application from scratch](https://thinkster.io/angularjs-es6-tutorial)**!
+Contributing
+===
 
-# Getting started
+If you think that a particular part of this application can be written better or you think this app is missing an important AngularJS concept then please submit a pull request, your help is very welcome.
 
-1. Clone repo
-2. `npm install`
-3. `gulp`
+To do
+===
 
-Make sure you have gulp installed globally (`npm install -g gulp`)
+* Add a contact page to the application to demonstrate form implementation and validation in AngularJS
+* Add tests for the majority of the application and accompanying tutorials
 
-### Making requests to the backend API
+Licence
+===
 
-For convenience, we have a live API server running at https://conduit.productionready.io/api for the application to make requests against. You can view [the API spec here](https://github.com/GoThinkster/productionready/blob/master/api) which contains all routes & responses for the server.
-
-The source code for the backend server (available for Node, Rails and Django) can be found in the [main RealWorld repo](https://github.com/gothinkster/realworld).
-
-If you want to change the API URL to a local server, simply edit `src/js/config/app.constants.js` and change `api` to the local server's URL (i.e. `localhost:3000/api`)
-
-<br />
-
-[![Brought to you by Thinkster](https://raw.githubusercontent.com/gothinkster/realworld/master/media/end.png)](https://thinkster.io)
+The application and code are licenced under MIT.
