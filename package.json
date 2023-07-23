@@ -1,25 +1,43 @@
 {
-  "name": "conduit-angularjs",
-  "version": "1.0.0",
-  "description": "Angular frontend for Conduit",
-  "author": "Thinkster",
-  "license": "MIT",
+  "name": "Todo App",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "angular": "^1.5.0-rc.2",
-    "angular-ui-router": "^0.4.2",
-    "babel-preset-es2015": "^6.3.13",
-    "babelify": "^7.2.0",
-    "browser-sync": "^2.11.1",
-    "browserify": "^13.0.0",
-    "browserify-ngannotate": "^2.0.0",
-    "gulp": "^3.9.1",
-    "gulp-angular-templatecache": "^1.8.0",
-    "gulp-notify": "^2.2.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-uglify": "^1.5.3",
-    "gulp-util": "^3.0.7",
-    "marked": "^0.3.5",
-    "merge-stream": "^1.0.0",
-    "vinyl-source-stream": "^1.1.0"
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.31",
+    "@types/react": "^18.2.6",
+    "@types/react-dom": "^18.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
